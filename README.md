@@ -1,17 +1,17 @@
 # Spectral Gate
 
-A real-time spectral gate audio plugin built in C++ using JUCE and CMake.
+Spectral gate audio effect plugin created with C++, JUCE and CMake
 
 ## Overview
 
-Spectral Gate is a frequency-domain audio effect that analyses incoming audio using the Short-Time Fourier Transform (STFT) and applies gain reduction to individual frequency bins whose magnitude falls below a configurable threshold.
+A spectral Gate is an audio effect that analyses incoming signal using a Fast Fourier Transform (FFT) and applies gain reduction to individual frequency bins whose magnitude falls below a user-set threshold.
 
-The project was built to explore digital signal processing, real-time audio programming and C++ development.
+I built this project for use in music production, namely reducing noise. It was also a way for me to explore DSP and learn a bit of C++ development. 
 
 ## Features
 
 - Real-time spectral gating
-- FFT-based frequency-domain processing
+- FFT-based frequency analysis
 - Per-frequency-bin gain reduction
 - Temporal gain smoothing
 - Hann windowing
