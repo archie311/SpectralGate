@@ -21,7 +21,7 @@ The plugin processes audio using the following pipeline:
 7. An inverse FFT converts the processed signal back into the time domain.
 8. Windowing and overlap-add reconstruction produce the output signal.
 
-## Technical Details
+## Details
 
 - **Language:** C++23
 - **Framework:** JUCE
