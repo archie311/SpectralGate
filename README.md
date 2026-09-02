@@ -6,7 +6,7 @@ Spectral gate audio effect plugin created with C++, JUCE and CMake
 
 A spectral Gate is an audio effect that analyses incoming signal using a Fast Fourier Transform (FFT) and applies gain reduction to individual frequency bins whose magnitude falls below a user-set threshold.
 
-I built this project for use in music production, namely for reducing noise and as a creative effect. It was also a way for me to explore DSP and learn a bit of C++ development. 
+I built this project for use in music production, namely for reducing noise or simply as a creative effect. It was also a way for me to explore DSP and learn a bit of C++ development. 
 
 ## DSP Pipeline
 
