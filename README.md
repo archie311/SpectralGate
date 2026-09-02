@@ -21,6 +21,12 @@ The plugin processes audio using the following pipeline:
 7. An inverse FFT converts the processed signal back into the time domain.
 8. Windowing and overlap-add reconstruction produce the output signal.
 
+## Further Developments
+
+- Investigate and reduce transient clicking caused by rapid spectral changes, perhaps via spectral smoothing.
+- Add user-controlled attack and release sliders.
+- Improve GUI.
+
 ## Details
 
 - **Language:** C++23
