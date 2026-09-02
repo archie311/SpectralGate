@@ -8,18 +8,7 @@ A spectral Gate is an audio effect that analyses incoming signal using a Fast Fo
 
 I built this project for use in music production, namely reducing noise. It was also a way for me to explore DSP and learn a bit of C++ development. 
 
-## Features
-
-- Real-time spectral gating
-- FFT-based frequency analysis
-- Per-frequency-bin gain reduction
-- Temporal gain smoothing
-- Hann windowing
-- Overlap-add reconstruction
-- Adjustable threshold control
-- VST3, AU and Standalone formats
-
-## DSP Approach
+## DSP Chain
 
 The plugin processes audio using the following pipeline:
 
