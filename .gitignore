@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# CMake build files
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+
+# JUCE build artefacts
+*.vst3
+*.component
+*.app
