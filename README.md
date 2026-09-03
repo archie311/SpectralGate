@@ -9,7 +9,7 @@ A spectral Gate is an audio effect that analyses incoming signal using a Fast Fo
 
 I built this project for use in music production, namely for reducing noise or simply as a creative effect. It was also a way for me to explore DSP and learn a bit of C++ development. 
 
-https://github.com/user-attachments/assets/cc815198-59ea-4b71-917b-0d23c2385f74
+https://github.com/user-attachments/assets/50239d89-2971-42c7-9d15-80b109f5d121
 
 ## DSP Pipeline
 
